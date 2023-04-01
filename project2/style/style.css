@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+   
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+nav ul li{
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+}
+nav  img{
+    width: 10%
+}
+button{
+    color: white;
+    background-color: rgb(116, 52, 235);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px ;
+}
+button:hover{
+    color:rgb(116, 52, 235);
+    background-color:white ;
+}
+nav button{
+    width: 10%;
+ 
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.left{
+    margin: 100px;
+    
+}
+h1{
+   color:  rgb(116, 52, 235);
+   font-weight: bolder;
+   padding: 10px 0;
+}
+p{
+    padding: 25px 0;
+}
+span{
+    color: rgba(154, 57, 219, 0.719);  
+}
+
+.right img{
+    
+        width: 75%;
+}
